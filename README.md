@@ -24,4 +24,9 @@
 * syntax: pip install name_of_the_package
 
 
-## What is CRUD
+## What is CRUD 
+
+
+
+## Json basics
+* J
