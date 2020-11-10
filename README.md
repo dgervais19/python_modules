@@ -151,7 +151,9 @@ check_response_code()
 * Handling/creating files with python
 * writing to file
 * reading from file
+* Syntax: open("file_name", "r,w,x,t")
 
+![](RWX.png)
 
 ## Exception handling
 - ```try``` & ```except``` blocks
