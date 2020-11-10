@@ -6,27 +6,27 @@
 import random  # Use the syntax... "print(random.random())" because you need to declare the class
 
 # Second iteration
-# from random import random
+from random import random
 # use print(random()).... because the class is already called in the "from"
 import math
 # We have random method in python library which we use by importing
 
 print(random.random())
-# # It generates float number between 0-1
-#
-# num_float = 23.44
-# print(" Floor method rounds the figure to lower end")
-# print(math.floor(num_float))
-#
-# print(" ceil() method rounds the figure to higher end of the value")
-# print(math.ceil(num_float))
+# It generates float number between 0-1
 
-# Task
-# num2_float = float(input("please enter a float number "))
-# if (num2_float % 1) < .50:
-#     print(math.floor(num2_float))
-# else:
-#     print(math.ceil(num2_float))
+num_float = 23.44
+print(" Floor method rounds the figure to lower end")
+print(math.floor(num_float))
+
+print(" ceil() method rounds the figure to higher end of the value")
+print(math.ceil(num_float))
+
+Task
+num2_float = float(input("please enter a float number "))
+if (num2_float % 1) < .50:
+    print(math.floor(num2_float))
+else:
+    print(math.ceil(num2_float))
 
 
 import os

@@ -12,26 +12,26 @@ print(type(response.content))
 
 
 # first iteration
-# if response.status_code == 200:
-#     print(" mission successful !! " + str(response.status_code))
-#     print(emojize((":thumbs_up:")))
-# elif response.status_code == 404:
-#     print(" the site is unavailable until further notice please contact your provider: ")
-# else:
-#     print("OOPs something went wrong please try later")
+if response.status_code == 200:
+    print(" mission successful !! " + str(response.status_code))
+    print(emojize((":thumbs_up:")))
+elif response.status_code == 404:
+    print(" the site is unavailable until further notice please contact your provider: ")
+else:
+    print("OOPs something went wrong please try later")
 
 # Second Iteration
 
-# def check_response_code():
-#     if response.status_code == 200:
-#         print(" mission successful !! " + str(response.status_code))
-#         print(emojize(":thumbs_up:"))
-#     elif response.status_code == 404:
-#         print(" the site is unavailable until further notice please contact your provider: ")
-#     else:
-#         print("OOPs something went wrong please try later")
-#
-# check_response_code()
+def check_response_code():
+    if response.status_code == 200:
+        print(" mission successful !! " + str(response.status_code))
+        print(emojize(":thumbs_up:"))
+    elif response.status_code == 404:
+        print(" the site is unavailable until further notice please contact your provider: ")
+    else:
+        print("OOPs something went wrong please try later")
+
+check_response_code()
 
 # Third Iteration
 # What does requests module bring to the table
@@ -49,4 +49,3 @@ def check_response_code():
 check_response_code()
 
 # It will evaluate to True if the status code was between 200 - 400, otherwise False
-#

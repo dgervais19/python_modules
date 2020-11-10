@@ -19,6 +19,7 @@ with open("new_json_file.json") as jsonfile:
     car = json.load(jsonfile) # load() copies the data and stores into a variable
     print(type(car))
     print(car['name'])
+    print(car['engine'])
     # Getting the value using the keys
 
 # json.dump() creates a stream object and except a file object to write to
